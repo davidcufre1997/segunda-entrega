@@ -15,12 +15,11 @@ body{
 }
 .form{
     background-color: #ffff;
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 400px;
-    max-width: 400px;
+    width: 80%;
+    margin: 30px 30px 30px 60px;
     border-radius: 1em;
     padding: 3.5em 1.5em;
+    text-align: center;
 }
 .form_container{
     width: 100%;
@@ -34,6 +33,7 @@ body{
 .form_cta{
     font-family: inherit;
 }
+
 .grid-item {
     display: flex;
     align-items: center;
@@ -61,16 +61,27 @@ body{
     padding: 20px;
     grid-auto-flow: dense;
   }
-  
-  @media (min-width: 600px) {
-    .wide {
-      grid-column: span 2;
-    }
-  
-    .tall {
-      grid-row: span 2;
-    }
-  }
+
 .footer{
     margin-top: 200px;
 }
+.parrafonos{
+  text-align: center;
+  margin: 50px;
+}
+h1{
+  text-align: center;
+  margin-top: 30px;
+}
+.maps{
+  text-align: center;
+}
+
+.form{
+  @media (max-width:400px)
+  flex-basis: 25%
+}
+   
+
+
+
